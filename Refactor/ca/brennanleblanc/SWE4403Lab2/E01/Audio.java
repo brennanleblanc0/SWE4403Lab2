@@ -2,7 +2,8 @@ package ca.brennanleblanc.SWE4403Lab2.E01;
 
 public class Audio implements Component{
 
-    public Audio clone() {
+    @Override
+    public Component clone() {
         return new Audio();
     }
 

@@ -11,7 +11,8 @@ public class Text implements Component{
         return content;
     }
 
-    public Text clone() {
+    @Override
+    public Component clone() {
         return new Text(content);
     }
 
