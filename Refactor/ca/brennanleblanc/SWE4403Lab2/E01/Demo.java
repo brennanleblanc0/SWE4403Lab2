@@ -8,8 +8,11 @@ public class Demo {
         Clip clip = new Clip();
         Audio audio = new Audio();
 
+        System.out.println("Duplicating Text");
         timeline.add(text);
+        System.out.println("Duplicating Clip");
         timeline.add(clip);
+        System.out.println("Duplicating Audio");
         timeline.add(audio);
 
         ContextMenu menu = new ContextMenu(timeline);
