@@ -9,7 +9,6 @@ public class ContextMenu {
 
     public void duplicate(Component component) {
         timeline.add(component.clone());
-        System.out.println("Duplicating " + component.getClass());
     }
 
 }
